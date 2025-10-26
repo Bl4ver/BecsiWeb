@@ -1,11 +1,13 @@
-#header{
+#header {
     height: 100vh;
+    width: 100%;
     background-image: url(../source/img/header-img.jpg);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-size: cover;
+    background-position: center calc(50% - 100px);
     font-family: var(--nav-font-family);
-    
-    #header-content{
+
+    #header-content {
         max-width: 1200px;
         height: 100%;
         margin: 0 auto;
@@ -16,16 +18,22 @@
         transform: translateY(-100px);
         align-items: flex-start;
 
-        #header-title{
+        #header-title {
             font-size: 64px;
             color: var(--cream);
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
 
-        #header-subtitle{
+        #header-subtitle {
             font-size: 32px;
             color: var(--latte);
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
         }
+    }
+}
+
+@media screen and (width > 1920px) {
+    #header {
+        background-position: center calc(50% - 125px);
     }
 }

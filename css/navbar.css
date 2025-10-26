@@ -1,4 +1,6 @@
 #nav-bar {
+    position: relative;
+    z-index: 100;
     background-color: rgba(51, 51, 51, 0.5);
 }
 
@@ -12,16 +14,15 @@
     align-items: center;
 }
 
-/*
 #nav-logo-img {
     height: 60px;
     width: auto;
 }
-*/
 
 #nav-links {
     display: flex;
     flex-direction: row;
+    height: 100%;
     gap: 20px;
 }
 
@@ -29,9 +30,12 @@
     color: var(--white);
     text-decoration: none;
     font-size: 28px;
+    
+    height: 100%;
 }
 
 #nav-links a:hover {
     color: var(--latte);
     transform: scale(1.1);
+    border-bottom: solid 1px var(--latte);
 }
