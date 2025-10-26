@@ -1,5 +1,16 @@
 :root {
+    --white: rgb(255, 255, 255, 1);
     --coffee: #6f4e37;
     --latte: #d7b899;
     --cream: #f3e5d3;
+
+    --nav-font-family: Andale Mono, monospace;
+}
+
+/* Alap reset: eltünteti a böngészők alapértelmezett stílusait */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
 }
