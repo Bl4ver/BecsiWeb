@@ -1,39 +1,64 @@
 #header {
-    height: 50vh;
+    height: 70vh;
     width: 100%;
+
     background-image: url(../source/img/header-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center calc(50% - 100px);
+    background-position: center;
     font-family: var(--nav-font-family);
 
-    #header-content {
-        max-width: 1200px;
-        height: 100%;
-        margin: 0 auto;
+    #header-container {
+        height: calc(100% - 7.5vh);
+        width: 100%;
+
 
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        transform: translateY(-100px);
-        align-items: flex-start;
+        align-items: center;
 
-        #header-title {
-            font-size: 64px;
-            color: var(--cream);
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
+        #header-content {
+            height: 50%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(7.5px);
 
-        #header-subtitle {
-            font-size: 32px;
-            color: var(--latte);
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            #header-title {
+                font-size: 64px;
+                color: var(--white);
+            }
+
+            #header-subtitle {
+                font-size: 32px;
+                color: var(--white);
+            }
         }
     }
+
+
 }
 
 @media screen and (width > 1920px) {
     #header {
         background-position: center calc(50% - 125px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header {
+        background-position: left calc(50% - 50px);
+    }
+
+    #header-title {
+        font-size: 48px;    /* Nem működik */ 
+    }
+
+    #header-subtitle {
+        font-size: 24px;    /* Nem működik */ 
     }
 }
