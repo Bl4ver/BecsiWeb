@@ -7,13 +7,19 @@
 
     --nav-font-family: Andale Mono, monospace;
     --nav-background-color: rgba(51, 51, 51, 0.3);
+    
+    --size-large: clamp(2rem, 1.875rem + 0.625vw, 2.625rem);
 }
-
 /* Alap reset: eltünteti a böngészők alapértelmezett stílusait */
 * {
     margin: 0;
     padding: 0;
     transition: 0.3s;
 
+    font-family: Andale Mono, monospace;
     box-sizing: border-box;     /* Nav miatt például */
+}
+
+html, body{
+    width: 100%;
 }

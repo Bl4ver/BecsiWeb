@@ -8,6 +8,10 @@
     background-position: center;
     font-family: var(--nav-font-family);
 
+    header-logo-img {
+        width: 100%;
+    }
+
     #header-container {
         height: calc(100% - 7.5vh);
         width: 100%;
@@ -24,7 +28,7 @@
             backdrop-filter: blur(7.5px);
 
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
             justify-content: center;
             align-items: center;
         }
@@ -33,12 +37,12 @@
 
 @media screen and (width > 1920px) {
     #header {
-        background-position: center calc(50% - 125px);
+        background-position: center;
     }
 }
 
 @media screen and (max-width: 800px) {
     #header {
-        background-position: left calc(50% - 50px);
+        background-position: left;
     }
 }
