@@ -1,6 +1,7 @@
 #nav-bar {
     height: 7.5vh;
-    position: relative;
+    position: sticky;   /* relative */
+    top: 0;             /* nem kell ha az előző relative */
     z-index: 2;
     background-color: var(--nav-background-color);
     backdrop-filter: blur(10px);
