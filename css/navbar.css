@@ -56,9 +56,13 @@
         left: 0;
         width: 100%;
         flex-direction: column;
-        background-color: var(--onyx);
         padding: 20px 0;
         gap: 15px;
+        
+        background-color: var(--nav-background-color);
+        backdrop-filter: blur(10px);
+        height: auto;
     }
     #nav-links.active { display: flex; }
+
 }
