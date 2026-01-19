@@ -1,49 +1,39 @@
 #header {
     height: 70vh;
     width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('../source/img/header-img.jpg') center/cover no-repeat;
 
-    background-image: url(../source/img/header-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: var(--nav-font-family);
-
-    header-logo-img {
-        width: 100%;
-    }
-
-    #header-container {
-        height: calc(100% - 7.5vh);
-        width: 100%;
-
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        #header-content {
-            height: 50%;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(7.5px);
-
-            display: flex;
-            /* flex-direction: column; */
-            justify-content: center;
-            align-items: center;
-
-        }
-    }
+    display: flex;
+    flex-direction: column;
 }
 
-@media screen and (width > 1920px) {
-    #header {
-        background-position: center;
-    }
+#nav-bar {
+    width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-    #header {
-        background-position: left;
-    }
+#header-container {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-content {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(7.5px);
+    padding: 50px 0;
+
+    /* A logó képének középre igazítása a sávon belül */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-logo-img {
+    max-width: 400px;
+    width: 90%;
+    height: auto;
 }

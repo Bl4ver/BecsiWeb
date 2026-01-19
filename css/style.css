@@ -1,30 +1,27 @@
 :root {
-    --white: rgb(255, 255, 255, 1);
+    --white: #ffffff;
     --coffee: #6f4e37;
     --latte: #d7b899;
     --cream: #f3e5d3;
     --onyx: #353935;
-
-    --nav-font-family: Andale Mono, monospace;
-    --nav-background-color: rgba(51, 51, 51, 0.3);
-    
-    --size-large: clamp(2rem, 1.875rem + 0.625vw, 2.625rem);
+    --nav-background-color: rgba(51, 51, 51, 0.6);
+    --font-main: 'Andale Mono', monospace;
 }
+
 * {
     margin: 0;
     padding: 0;
-    transition: 0.3s;
-
-    font-family: Andale Mono, monospace;
+    transition: 0.3s ease;
+    font-family: var(--font-main);
     box-sizing: border-box;
 }
 
-html, body{
+html, body {
     width: 100%;
+    overflow-x: hidden;
 }
 
 .body-container {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -32,35 +29,10 @@ html, body{
 }
 
 .body {
-    max-width: 1500px;
-    padding: 50px 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    h1 {
-        font-size: 2.5em;
-        /*
-        margin-bottom: 10px;
-        text-align: center;
-        */
-    }
-
-    p {
-        font-size: 1.2em;
-        /*
-        line-height: 1.6;
-        text-align: center;
-        margin-top: 15px;
-        */
-    }
-
-    /*
-    img {
-        margin-top: 20px;
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
-    */
 }
