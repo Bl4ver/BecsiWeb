@@ -26,6 +26,10 @@ footer {
 
 .footer-icon { height: 30px; margin-left: 15px; }
 
+.footer-column a {
+    color: white;
+}
+
 @media (max-width: 768px) {
     #footer-top { grid-template-columns: 1fr; }
     #footer-bottom { flex-direction: column; gap: 20px; }
