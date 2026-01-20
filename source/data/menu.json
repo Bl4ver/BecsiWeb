@@ -1,0 +1,130 @@
+{
+    "menu": [
+        {
+            "section": "Kávék",
+            "title": "Ristretto",
+            "description": "A kevesebb néha több. Erős, kis mennyiségű kávé.",
+            "price": "690"
+        },
+        {
+            "section": "Kávék",
+            "title": "Espresso",
+            "description": "25-30ml kávé, vékony barna crema-val.",
+            "price": "690"
+        },
+        {
+            "section": "Kávék",
+            "title": "Dupla Espresso",
+            "description": "Amikor egy adag kávé egyszerűen nem elég.",
+            "price": "1 190"
+        },
+        {
+            "section": "Kávék",
+            "title": "Lungo",
+            "description": "A lungo szó a \"hosszú\" olasz megfelelője.",
+            "price": "780"
+        },
+        {
+            "section": "Kávék",
+            "title": "Americano",
+            "description": "A \"hosszabb\" hosszú kávé.",
+            "price": "750"
+        },
+        {
+            "section": "Kávék",
+            "title": "Espresso Macchiato",
+            "description": "Espresso, a tetején falatnyi habosított tejjel.",
+            "price": "810"
+        },
+        {
+            "section": "Kávék",
+            "title": "Cortado",
+            "description": "Kisebb mennyiségű ital, amely espresso-t, tejet és vékony tejhabot tartalmaz.",
+            "price": "890"
+        },
+        {
+            "section": "Kávék",
+            "title": "Cappucino",
+            "description": "Espresso-t, meleg tejes és gőzölt tejhabot rejt magában.",
+            "price": "980"
+        },
+        {
+            "section": "Kávék",
+            "title": "Flat White",
+            "description": "Dupla ristrettoból és lágy tejgabból álló kávékülönlegesség.",
+            "price": "1 240"
+        },
+        {
+            "section": "Kávék",
+            "title": "Caffé Latte",
+            "description": "Egyszerűen csak tejeskávé.",
+            "price": "1 090"
+        },
+        {
+            "section": "Kávék",
+            "title": "Latte Macchiato",
+            "description": "Hosszú pohárban espresso, gőzölt tejjel és vastag tejhabbal.",
+            "price": "1 090"
+        },
+        {
+            "section": "Kávék",
+            "title": "Melange",
+            "description": "A Latte Macchiatohoz hasonló ital, mézzel az alján.",
+            "price": "1 210"
+        },
+        {
+            "section": "Kávék",
+            "title": "Kapuzíner",
+            "description": "Cappuccino tejszínhabbal a tetején.",
+            "price": "1 190"
+        },
+        {
+            "section": "Kávék",
+            "title": "Moccaccino",
+            "description": "Cappuccino csokoládésziruppal.",
+            "price": "1 140"
+        },
+        {
+            "section": "Kávék",
+            "title": "Chocopresso",
+            "description": "Espresso forrócsokiba rejtve, tejhabbal a tetején.",
+            "price": "1 810"
+        },
+        {
+            "section": "Kávék",
+            "title": "Espresso Tonic",
+            "description": "A szénsavas tonic és az espresso találkozása. Garantáltan felpezsdít.",
+            "price": "1 410"
+        },
+        {
+            "section": "Jeges Kávék",
+            "title": "Bécsi Jeges Kávé",
+            "description": "Espresso, tejjel, vanília fagylalttal és tejszínhabbal a tetején.",
+            "price": "1 850"
+        },
+        {
+            "section": "Jeges Kávék",
+            "title": "Jeges Cappiccino",
+            "description": "Hidegen felhabosított tej jégkockával és espresso kávéval.",
+            "price": "1 050"
+        },
+        {
+            "section": "Jeges Kávék",
+            "title": "Jeges Latte Macchiato",
+            "description": "Nagypbb mennyiségű, hidegen elkészített ital, jégkockával, habosított tejjel és espresso kávéval.",
+            "price": "1 050"
+        },
+        {
+            "section": "Alkoholos Kávék",
+            "title": "Ír Kávé",
+            "description": "Espresso egy kis whiskeyvel és tejszínnel párosítva.",
+            "price": "1 850"
+        },
+        {
+            "section": "Alkoholos Kávék",
+            "title": "Espresso Martini",
+            "description": "Espresso egy kis vodkával és kávílikőrrel megbolondítva, martinis pohárban szervírozva.",
+            "price": "1 850"
+        }
+    ]
+}
