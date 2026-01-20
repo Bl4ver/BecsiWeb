@@ -27,18 +27,25 @@
     display: flex;
     gap: 50px;
     height: 100%;
-    align-items: center;
 }
 
 #nav-links a {
     color: var(--white);
     text-decoration: none;
     font-size: 22px;
+    width: 100%;
+}
+
+#nav-links div {
+    width: fit-content;
+}
+
+#nav-links #active div {
+    border-bottom: 2px solid var(--latte);
 }
 
 #nav-links a:hover, #active {
     color: var(--latte);
-    border-bottom: 2px solid var(--latte);
 }
 
 #hamburger {
