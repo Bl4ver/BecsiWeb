@@ -28,7 +28,7 @@ function createCard(cardData) {
 }
 
 async function loadData() {
-    fetch('../../source/data/menu.json')
+    fetch('../source/data/menu.json')
         .then(response => response.json())
         .then(data => {
             data.menu.forEach(cardData => {
