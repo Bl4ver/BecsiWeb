@@ -43,6 +43,25 @@ async function loadData() {
         });
 }
 
+function setupToggleButtons() {
+    const toggleButtons = document.querySelectorAll('.toggle-btn');
+    
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const header = this.closest('.section-header');
+            const cardHolder = header.nextElementSibling;
+            
+            if (cardHolder && cardHolder.classList.contains('card-holder')) {
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                
+                this.setAttribute('aria-expanded', !isExpanded);
+                cardHolder.classList.toggle('collapsed');
+            }
+        });
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     loadData();
+    setupToggleButtons();
 });

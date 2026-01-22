@@ -1,6 +1,6 @@
 #nav-bar {
     height: 7.5vh;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 100;
     background-color: var(--nav-background-color);

@@ -26,3 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+let lastScrollY = 0;
+document.addEventListener("scroll", () => {
+    const navbar = document.getElementById("nav-bar");
+    const currentScrollY = window.pageYOffset;
+    
+    if (currentScrollY > lastScrollY) {
+        navbar.style.position = "static";
+    } else {
+        navbar.style.position = "fixed";
+    }
+    
+    lastScrollY = currentScrollY;
+});
