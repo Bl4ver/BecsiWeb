@@ -1,10 +1,11 @@
+/*
 function createCard(cardData) {    
     const card = document.createElement('div');
     card.classList.add('card');
 
     const cardTitle = document.createElement('div');
     cardTitle.classList.add('card-title');
-    const h1Title = document.createElement('h1');
+    const h1Title = document.createElement('h2');
     h1Title.textContent = cardData.title;
     cardTitle.appendChild(h1Title);
 
@@ -24,6 +25,18 @@ function createCard(cardData) {
     card.appendChild(cardDesc);
     card.appendChild(cardPrice);
 
+    return card;
+}
+*/
+
+function createCard(cardData) {    
+    const card = document.createElement('div');
+    card.classList.add('card');
+    card.innerHTML = `
+        <div class="card-title"><h2>${cardData.title}</h2></div>
+        <div class="card-description"><p>${cardData.description}</p></div>
+        <div class="card-price"><p>${cardData.price} Ft</p></div>
+    `;
     return card;
 }
 

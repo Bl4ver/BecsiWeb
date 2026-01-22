@@ -16,6 +16,8 @@
     box-sizing: border-box;
 }
 
+
+
 html, body {
     width: 100%;
     overflow-x: hidden;
@@ -31,22 +33,20 @@ html, body {
 .body {
     width: 100%;
     max-width: 1500px;
-    padding: 50px 20px;
+    padding: 100px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 1.2143rem + 1.4286vw, 3.5rem);
+}
+
+h2{
+    font-size: clamp(1.5rem, 1.3571rem + 0.7143vw, 2.5rem);
 }
 
 p{
-    font-size: 1.1rem;
-}
-
-@media screen and (max-width: 800px) {
-    h1 {
-        font-size: 8cqmin;
-    }
+    font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.5rem);
 }
