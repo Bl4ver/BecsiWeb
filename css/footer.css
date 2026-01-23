@@ -32,7 +32,7 @@ footer {
 }
 
 .footer-icon-container > svg{
-    width: 100%;
+    width: clamp(1.5rem, 1.2857rem + 1.0714vw, 3rem);
     height: 100%;
 }
 
