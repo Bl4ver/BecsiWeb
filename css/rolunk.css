@@ -1,17 +1,24 @@
 #rolunk-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     gap: 40px;
 }
 
 #map-container {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2dvw;
     background: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
+}
+
+.item {
+    flex-grow: 1;
+    width: 100%;
 }
 
 #open-hours-table {
@@ -20,11 +27,70 @@
     border-collapse: collapse;
 }
 
-#open-hours-table tr:nth-child(even) { background-color: #f2f2f2; }
-#open-hours-table tr:hover { background-color: #ddd; }
-#open-hours-table td { padding: 5px; text-align: left; }
-#open-hours-table td:nth-child(2) { text-align: center; }
+#open-hours-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#open-hours-table tr:hover {
+    background-color: #ddd;
+}
+
+#open-hours-table td {
+    padding: 5px;
+    text-align: left;
+}
+
+#open-hours-table td:nth-child(2) {
+    text-align: center;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2dvw;
+}
+
+.card {
+    h1 {
+        text-align: center;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1cqmin;
+    width: 45%;
+    border: rgba(0, 0, 0, 0.307) solid 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.307);
+}
 
 @media (max-width: 900px) {
-    #rolunk-body, #map-container { grid-template-columns: 1fr; }
+
+    #rolunk-body,
+    #map-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    #map-container{
+        flex-direction: column;
+    }
+
+    #map-box{
+        height: 40dvh;
+    }
+
+    .card-holder {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
 }
