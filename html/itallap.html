@@ -5,175 +5,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/itallap.css">
-
-    <link rel="stylesheet" href="../css/itallap.css">
-    <script src="../js/navbar.js"></script>
-    <script src="../js/cardLoader.js"></script>
-    <title>Bécsi Cafe & Bar</title>
+    <script src="../js/navbar.js" defer></script>
+    <script src="../js/cardLoader.js" defer></script>
+    <title>Bécsi Cafe & Bar - Itallap</title>
+    <link rel="icon" type="image/png" href="../source/img/becsi-logo_title.png">
 </head>
 
 <body>
-    <header id="header">
-        <!-- Nav-bar -->
-        <nav id="nav-bar">
-            <div id="nav-content">
-                <div id="nav-logo">
-                    <img src="../source/img/becsi_logo.png" alt="Bécsi logó" id="nav-logo-img">
+    <header class="hero-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="main.html" class="nav-logo"><img src="../source/img/becsi_logo.png" alt="Bécsi logó"></a>
+                <div id="nav-links" class="nav-links">
+                    <a href="main.html">Főoldal</a>
+                    <a href="itallap.html" class="active">Itallap</a>
+                    <a href="rolunk.html">Rólunk</a>
                 </div>
-                <div id="nav-links">
-                    <a href="main.html">
-                        <div>Főoldal</div>
-                    </a>
-                    <a href="itallap.html">
-                        <div id="active">Itallap</div>
-                    </a>
-                    <a href="rolunk.html">
-                        <div>Rólunk</div>
-                    </a>
-                </div>
-                <img src="../source/img/hamburger_icon.png" alt="hamburger_icon" id="hamburger">
+                <img src="../source/img/hamburger_icon.png" alt="Menü" id="hamburger">
             </div>
         </nav>
-
-        <!-- Header content -->
-        <div id="header-container">
-            <div id="header-content">
-                <img src="../source/img/becsi_logo.png" alt="Bécsi logó" id="header-logo-img">
-            </div>
+        <div class="hero-logo-box">
+            <img src="../source/img/becsi_logo.png" alt="Bécsi logó">
         </div>
-
     </header>
 
-    <section class="body-container">
-        <div class="body">
-            <!-- Kávék -->
-            <div class="section-header">
-                <h1 class="section-title">Kávék</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" id="caffee" data-section="Kávék">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Jeges Kávék -->
-            <div class="section-header">
-                <h1 class="section-title">Jeges Kávék</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" id="ice-caffee" data-section="Jeges Kávék">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Alkoholos Kávék -->
-            <div class="section-header">
-                <h1 class="section-title">Alkoholos Kávék</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" id="alc-caffee" data-section="Alkoholos Kávék">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Meleg Italok -->
-            <div class="section-header">
-                <h1 class="section-title">Meleg Italok</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" data-section="Meleg Italok">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Teák -->
-            <div class="section-header">
-                <h1 class="section-title">Teák</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" data-section="Teák">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Üdítők -->
-            <div class="section-header">
-                <h1 class="section-title">Üdítők</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" data-section="Üdítők">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Limonádék -->
-            <div class="section-header">
-                <h1 class="section-title">Limonádék</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" data-section="Limonádék">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Shake-Smoothie-Frappé -->
-            <div class="section-header">
-                <h1 class="section-title">Shake-Smoothie-Frappé</h1>
-                <button class="toggle-btn" aria-expanded="false">▼</button>
-            </div>
-            <section class="card-holder collapsed" data-section="Shake-Smoothie-Frappé">
-                <!-- ide jönnek a kártyák -->
-            </section>
-
-            <!-- Desserts -->
-            <h1 class="section-title">Desszertek</h1>
-            <h2>Mindennap más és más süteményekkel várunk benneteket!</h2>
-            <h2>Az aktuális süteményeket kávézónkban találhatjátok meg!</h2>
+    <main class="main-content">
+        <div class="section-header">
+            <h1>Kávék</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
         </div>
+        <section class="card-holder collapsed" id="caffee" data-section="Kávék"></section>
 
-    </section>
-    <footer>
-        <div id="footer-container">
-            <div id="footer-top">
-                <div id="text-box" class="footer-column">
-                    <p>
-                        Kínálatunkban megtalálhatóak a klasszikus kávék, frissítő limonádék és ízletes péksütemények.
-                        Hangulatos belső terünk és udvarias kiszolgálásunk garantálja, hogy nálunk mindig otthon
-                        érezheti magát.
-                    </p>
-                </div>
-                <div id="logo" class="footer-column">
-                    <img src="../source/img/becsi_logo.png" alt="Logo">
-                </div>
-                <div id="contact" class="footer-column">
-                    <p>9700 Szombathely, Fő tér. 14.</p>
-                    <p>+36 30 386 3221</p>
-                    <p><a href="mailto:vmi@vmi.com">cafe.becsi@gmail.com</a></p>
-                    <p><a href="#">Adatvédelmi tájékoztató</a></p>
-                    <p><a href="#">ÁSZF</a></p>
-                </div>
+        <div class="section-header">
+            <h1>Jeges Kávék</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" id="ice-caffee" data-section="Jeges Kávék"></section>
+
+        <div class="section-header">
+            <h1>Alkoholos Kávék</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" id="alc-caffee" data-section="Alkoholos Kávék"></section>
+
+        <div class="section-header">
+            <h1>Meleg Italok</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Meleg Italok"></section>
+
+        <div class="section-header">
+            <h1>Teák</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Teák"></section>
+
+        <div class="section-header">
+            <h1>Üdítők</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Üdítők"></section>
+
+        <div class="section-header">
+            <h1>Limonádék</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Limonádék"></section>
+
+        <div class="section-header">
+            <h1>Shake-Smoothie-Frappé</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Shake-Smoothie-Frappé"></section>
+
+        <div class="section-header">
+            <h1>Csapolt Sörök</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Csapolt Sörök"></section>
+
+        <div class="section-header">
+            <h1>Palackozott Sörök</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Palackozott Sörök"></section>
+
+        <div class="section-header">
+            <h1>Folyóborok</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Folyóborok"></section>
+
+        <div class="section-header">
+            <h1>Pezsgők</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Pezsgők"></section>
+
+        <div class="section-header">
+            <h1>Röviditalok</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Röviditalok"></section>
+
+        <div class="section-header">
+            <h1>Ételek</h1>
+            <button class="toggle-btn" aria-expanded="false">▼</button>
+        </div>
+        <section class="card-holder collapsed" data-section="Ételek"></section>
+
+        <div class="welcome-section" style="margin-top: 60px;">
+            <h2>Desszertek</h2>
+            <p>Mindennap más és más süteményekkel várunk benneteket!<br>Az aktuális süteményeket kávézónkban
+                találhatjátok meg!</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-text">
+                <p>Kínálatunkban megtalálhatóak a klasszikus kávék, frissítő limonádék és ízletes péksütemények.
+                    Hangulatos belső terünk és udvarias kiszolgálásunk garantálja, hogy nálunk mindig otthon érezheti
+                    magát.</p>
             </div>
-
-            <div id="footer-bottom">
-                <div id="copyright">
-                    <p>© Copyright 2025 | Minden jog fenntartva | BlaBlaBla Weboldalkészítő.com</p>
-                </div>
-                <div id="social">
-                    <a href="https://www.facebook.com/becsicafebar/?locale=hu_HU" target="_blank"
-                        class="footer-icon-container">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-facebook-icon lucide-facebook">
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                        </svg>
-                    </a>
-                    <a href="https://www.instagram.com/becsi_cafe_bar/" target="_blank" class="footer-icon-container">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-instagram-icon lucide-instagram">
-                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                        </svg>
-                    </a>
-                </div>
+            <div class="footer-logo"><img src="../source/img/becsi_logo.png" alt="Logo"></div>
+            <address class="footer-contact" style="font-style: normal;">
+                <p>9700 Szombathely, Fő tér 14.</p>
+                <p>+36 30 386 3221</p>
+                <p><a href="mailto:cafe.becsi@gmail.com">cafe.becsi@gmail.com</a></p>
+                <p><a href="#">Adatvédelmi tájékoztató</a> | <a href="#">ÁSZF</a></p>
+            </address>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 | Minden jog fenntartva | BlaBlaBla Weboldalkészítő.com</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/becsicafebar" target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                        stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                    </svg></a>
+                <a href="https://www.instagram.com/becsi_cafe_bar/" target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                        stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                    </svg></a>
             </div>
         </div>
     </footer>

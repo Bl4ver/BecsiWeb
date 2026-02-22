@@ -3,128 +3,902 @@
         {
             "section": "Kávék",
             "title": "Ristretto",
-            "description": "A kevesebb néha több. Erős, kis mennyiségű kávé.",
+            "description": "A kevesebb néha több. Erős, kis mennyiségű kávé",
             "price": "690"
         },
         {
             "section": "Kávék",
             "title": "Espresso",
-            "description": "25-30ml kávé, vékony barna crema-val.",
+            "description": "25-30 ml kávé, vékony barna crema-val a tetején.",
             "price": "690"
         },
         {
             "section": "Kávék",
             "title": "Dupla Espresso",
-            "description": "Amikor egy adag kávé egyszerűen nem elég.",
-            "price": "1 190"
+            "description": "Amikor egy adag kávé egyszerűen nem elég",
+            "price": "1 240"
         },
         {
             "section": "Kávék",
             "title": "Lungo",
-            "description": "A lungo szó a \"hosszú\" olasz megfelelője.",
+            "description": "A lungo szó a „hosszú” olasz megfelelője",
             "price": "780"
         },
         {
             "section": "Kávék",
             "title": "Americano",
-            "description": "A \"hosszabb\" hosszú kávé.",
-            "price": "750"
+            "description": "A \"hosszabb\" hosszú kávé",
+            "price": "780"
         },
         {
             "section": "Kávék",
             "title": "Espresso Macchiato",
             "description": "Espresso, a tetején falatnyi habosított tejjel.",
-            "price": "810"
+            "price": "850"
         },
         {
             "section": "Kávék",
             "title": "Cortado",
             "description": "Kisebb mennyiségű ital, amely espresso-t, tejet és vékony tejhabot tartalmaz.",
-            "price": "890"
+            "price": "940"
         },
         {
             "section": "Kávék",
-            "title": "Cappucino",
-            "description": "Espresso-t, meleg tejes és gőzölt tejhabot rejt magában.",
-            "price": "980"
+            "title": "Cappuccino",
+            "description": "Espresso-t, meleg tejet és gőzölt tejhabot rejt magában.",
+            "price": "1 040"
         },
         {
             "section": "Kávék",
             "title": "Flat White",
-            "description": "Dupla ristrettoból és lágy tejgabból álló kávékülönlegesség.",
-            "price": "1 240"
+            "description": "Dupla ristrettoból és lágy tejhabból álló kávékülönlegesség.",
+            "price": "1 290"
         },
         {
             "section": "Kávék",
             "title": "Caffé Latte",
-            "description": "Egyszerűen csak tejeskávé.",
-            "price": "1 090"
+            "description": "Egyszerűen csak tejeskávé",
+            "price": "1 140"
         },
         {
             "section": "Kávék",
             "title": "Latte Macchiato",
-            "description": "Hosszú pohárban espresso, gőzölt tejjel és vastag tejhabbal.",
-            "price": "1 090"
+            "description": "Hosszú pohárban espresso, gőzölt tejjel és vastag tejhabbal",
+            "price": "1 140"
         },
         {
             "section": "Kávék",
             "title": "Melange",
             "description": "A Latte Macchiatohoz hasonló ital, mézzel az alján.",
-            "price": "1 210"
+            "price": "1 260"
         },
         {
             "section": "Kávék",
             "title": "Kapuzíner",
             "description": "Cappuccino tejszínhabbal a tetején.",
-            "price": "1 190"
+            "price": "1 240"
         },
         {
             "section": "Kávék",
             "title": "Moccaccino",
             "description": "Cappuccino csokoládésziruppal.",
-            "price": "1 140"
+            "price": "1 190"
         },
         {
             "section": "Kávék",
             "title": "Chocopresso",
             "description": "Espresso forrócsokiba rejtve, tejhabbal a tetején.",
-            "price": "1 810"
+            "price": "1 880"
         },
         {
             "section": "Kávék",
             "title": "Espresso Tonic",
             "description": "A szénsavas tonic és az espresso találkozása. Garantáltan felpezsdít.",
-            "price": "1 410"
+            "price": "1 460"
+        },
+        {
+            "section": "Kávék",
+            "title": "Koffeinmentes kávé",
+            "description": "",
+            "price": "+ 300"
+        },
+        {
+            "section": "Kávék",
+            "title": "Laktózmentes tej",
+            "description": "",
+            "price": "+ 270"
+        },
+        {
+            "section": "Kávék",
+            "title": "Kókusztej, mandulatej, rizstej",
+            "description": "",
+            "price": "+ 370"
+        },
+        {
+            "section": "Kávék",
+            "title": "Kávéhoz választható ízesítők",
+            "description": "csoki, fahéj, karamell, kókusz, mézeskalács, toffee, cukormentes: karamell, mogyoró, vanília",
+            "price": "+ 280"
+        },
+        {
+            "section": "Kávék",
+            "title": "+Tejszínhab",
+            "description": "",
+            "price": "+ 250"
         },
         {
             "section": "Jeges Kávék",
             "title": "Bécsi Jeges Kávé",
             "description": "Espresso, tejjel, vanília fagylalttal és tejszínhabbal a tetején.",
-            "price": "1 850"
+            "price": "1 950"
         },
         {
             "section": "Jeges Kávék",
-            "title": "Jeges Cappiccino",
-            "description": "Hidegen felhabosított tej jégkockával és espresso kávéval.",
-            "price": "1 050"
+            "title": "Jeges Cappuccino",
+            "description": "Hidegen felhabosított tej jégkockával és espresso kávéval",
+            "price": "1 110"
         },
         {
             "section": "Jeges Kávék",
             "title": "Jeges Latte Macchiato",
-            "description": "Nagypbb mennyiségű, hidegen elkészített ital, jégkockával, habosított tejjel és espresso kávéval.",
-            "price": "1 050"
+            "description": "Nagyobb mennyiségű, hidegen elkészített ital, jégkockával, habosított tejjel és espresso kávéval.",
+            "price": "1 110"
         },
         {
             "section": "Alkoholos Kávék",
             "title": "Ír Kávé",
             "description": "Espresso egy kis whiskeyvel és tejszínnel párosítva.",
-            "price": "1 850"
+            "price": "1 950"
         },
         {
             "section": "Alkoholos Kávék",
             "title": "Espresso Martini",
-            "description": "Espresso egy kis vodkával és kávílikőrrel megbolondítva, martinis pohárban szervírozva.",
+            "description": "Espresso egy kis vodkával és kávélikőrrel megbolondítva, martinis pohárban szervírozva.",
+            "price": "1 950"
+        },
+        {
+            "section": "Alkoholos Kávék",
+            "title": "Caffe Bailey's",
+            "description": "Espresso egy kis Bailey'sszel megbolondítva és vékony tejhabbal.",
             "price": "1 850"
+        },
+        {
+            "section": "Meleg Italok",
+            "title": "Gyerekkávé",
+            "description": "Gyerekeknek készült kávé meleg tejjel, a tetején tejszínhabbal és Smartiessal.",
+            "price": "890"
+        },
+        {
+            "section": "Meleg Italok",
+            "title": "Forró Kakaó",
+            "description": "Kakaó meleg tejjel és tejhabbal.",
+            "price": "790"
+        },
+        {
+            "section": "Meleg Italok",
+            "title": "Matcha Latte",
+            "description": "A tea, ami kávé. Zöld tea habosított tejjel szervírozva. Igazi ínyenceknek.",
+            "price": "1 350"
+        },
+        {
+            "section": "Meleg Italok",
+            "title": "Chai Latte",
+            "description": "A tea, ami kávé. Tea habosított tejjel szervírozva. Igazi ínyenceknek.",
+            "price": "1 240"
+        },
+        {
+            "section": "Meleg Italok",
+            "title": "Matcha Latte Mézzel",
+            "description": "Matcha Latte mézzel, fahéjjal megbolondítva.",
+            "price": "1 550"
+        },
+        {
+            "section": "Meleg Italok",
+            "title": "Forrócsoki",
+            "description": "banán, classic, fehér, kókusz, meggy, mézeskalács, mogyoró, mogyorós fehér, narancs",
+            "price": "1 290"
+        },
+        {
+            "section": "Meleg Italok",
+            "title": "Cukormentes Forrócsoki",
+            "description": "fehércsoki, tejcsoki",
+            "price": "1 390"
+        },
+        {
+            "section": "Teák",
+            "title": "Schwarza Peter",
+            "description": "bio fekete tea, Ceylon",
+            "price": "1 350"
+        },
+        {
+            "section": "Teák",
+            "title": "Flotte Lotte",
+            "description": "bio zöld tea, mangó-bergamotte",
+            "price": "1 350"
+        },
+        {
+            "section": "Teák",
+            "title": "Scheene Leni",
+            "description": "bio gyümölcstea, erdeigyümölcs-málna",
+            "price": "1 350"
+        },
+        {
+            "section": "Teák",
+            "title": "G'miadliche Zeit",
+            "description": "bio rooibos tea, narancs-fahéj",
+            "price": "1 350"
+        },
+        {
+            "section": "Teák",
+            "title": "Nette Nani",
+            "description": "bio mentatea",
+            "price": "1 350"
+        },
+        {
+            "section": "Teák",
+            "title": "Seeräubertee",
+            "description": "bio gyümölcstea, eper-narancs",
+            "price": "1 350"
+        },
+        {
+            "section": "Teák",
+            "title": "Herzal",
+            "description": "gyógynövény tea, rózsa-bazsalikom-füge",
+            "price": "1 350"
+        },
+        {
+            "section": "Teák",
+            "title": "+ Méz",
+            "description": "",
+            "price": "+ 250"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Coca-Cola (0,25l)",
+            "description": "",
+            "price": "750"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Coca-Cola Zero (0,25l)",
+            "description": "",
+            "price": "750"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Canada Dry (0,25l)",
+            "description": "",
+            "price": "750"
+        },
+        {
+            "section": "Üdítők",
+            "title": "7 UP (0,25l)",
+            "description": "",
+            "price": "750"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Schweppes (0,25l)",
+            "description": "- Citrus, Narancs, Tonic",
+            "price": "750"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Lipton Ice Tea (0,25l)",
+            "description": "- Citrom, Őszibarack, Zöld",
+            "price": "750"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Almdudler (0,35l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Fever Tree Tonic (0,2l)",
+            "description": "",
+            "price": "1 150"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Thomas Henry Tonic (0,2l)",
+            "description": "",
+            "price": "1 150"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Römerquelle (0,33l)",
+            "description": "- Szénsavas, Szénsavmentes",
+            "price": "750"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Römerquelle (0,75l)",
+            "description": "- Szénsavas, Szénsavmentes",
+            "price": "1 050"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Rauch Ananász (0,2l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Rauch Alma (0,2l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Rauch Feketeribizli (0,2l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Rauch Mangó (0,2l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Rauch Multivitamin (0,2l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Rauch Narancs 100% (0,2l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Rauch Őszibarack (0,2l)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Szóda Citrommal (0,3l)",
+            "description": "",
+            "price": "450"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Szóda Citrommal (0,5l)",
+            "description": "",
+            "price": "650"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Frissen Facsart Narancslé /dl",
+            "description": "",
+            "price": "550"
+        },
+        {
+            "section": "Üdítők",
+            "title": "Red Bull",
+            "description": "",
+            "price": "980"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Áfonya (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Áfonya (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Bodza (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Bodza (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Citrom (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Citrom (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Eper (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Eper (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Görögdinnye (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Görögdinnye (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Levendula (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Levendula (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Mangó (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Mangó (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Sárgadinnye (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Sárgadinnye (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Cukormentes Eper (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Cukormentes Eper (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Cukormentes Maracuja (0,4l)",
+            "description": "",
+            "price": "1 360"
+        },
+        {
+            "section": "Limonádék",
+            "title": "Cukormentes Maracuja (0,6l)",
+            "description": "",
+            "price": "1 700"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Oreo Shake",
+            "description": "Oreo keksz, csokiszirup, tej és vaníliafagylalt összeturmixolva, tejszínhabbal díszítve.",
+            "price": "1 610"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Banán Shake",
+            "description": "Banán, vaníliapuding, tej és vaníliafagylalt összeturmixolva, tejszínhabbal díszítve.",
+            "price": "1 610"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Toffee Shake",
+            "description": "Toffee szirup, karamell szirup, tej és vaníliafagylalt összeturmixolva tejszínhabbal díszítve.",
+            "price": "1 610"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Eper Shake",
+            "description": "Eper, vaníliapuding, tej és vaníliafagylalt összeturmixolva tejszínhabbal díszítve.",
+            "price": "1 610"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Nutella Shake",
+            "description": "Nutella, vaníliapuding, tej és vaníliafagylalt összeturmixolva, tejszínhabbal díszítve.",
+            "price": "1 610"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Erdei Gyümölcsös Smoothie",
+            "description": "Erdei gyümölcs, zabtej és méz összeturmixolva.",
+            "price": "1 690"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Epres Smoothie",
+            "description": "Eper, banán és eperlé összeturmixolva.",
+            "price": "1 690"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Vitamin Smoothie",
+            "description": "Frissen facsart narancslé, alma, banán és fahéj összeturmixolva.",
+            "price": "1 690"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Vanília Frappé",
+            "description": "Vanília ízű jeges finomság.",
+            "price": "1 390"
+        },
+        {
+            "section": "Shake-Smoothie-Frappé",
+            "title": "Frappéhoz választható ízesítők",
+            "description": "csoki, fahéj, karamell, kókusz, mézeskalács, toffee, áfonya, bodza, citrom, eper, görögdinnye, levendula, mangó, mojito, sárgadinnye, cukormentes: karamell, mogyoró, vanília, eper, maracuja",
+            "price": "+ 280"
+        },
+        {
+            "section": "Csapolt Sörök",
+            "title": "Pilsner (0,3 l)",
+            "description": "",
+            "price": "750"
+        },
+        {
+            "section": "Csapolt Sörök",
+            "title": "Pilsner (0,5 l)",
+            "description": "",
+            "price": "1 250"
+        },
+        {
+            "section": "Palackozott Sörök",
+            "title": "Pilsner (0,3 l)",
+            "description": "",
+            "price": "810"
+        },
+        {
+            "section": "Palackozott Sörök",
+            "title": "Peroni (0,3 l)",
+            "description": "",
+            "price": "870"
+        },
+        {
+            "section": "Palackozott Sörök",
+            "title": "Miller (0,3 l)",
+            "description": "",
+            "price": "870"
+        },
+        {
+            "section": "Palackozott Sörök",
+            "title": "Corona (0,3 l)",
+            "description": "",
+            "price": "1 400"
+        },
+        {
+            "section": "Palackozott Sörök",
+            "title": "Dreher 24 Alkoholmentes (0,3 l)",
+            "description": "",
+            "price": "750"
+        },
+        {
+            "section": "Palackozott Sörök",
+            "title": "HB Búza (0,5 l)",
+            "description": "",
+            "price": "1 050"
+        },
+        {
+            "section": "Palackozott Sörök",
+            "title": "Dreher Bak (0,5 l)",
+            "description": "",
+            "price": "950"
+        },
+        {
+            "section": "Folyóborok",
+            "title": "Szent György-hegyi Chardonnay száraz (dl)",
+            "description": "",
+            "price": "470"
+        },
+        {
+            "section": "Folyóborok",
+            "title": "Balatonboglári Muskotály félédes (dl)",
+            "description": "",
+            "price": "470"
+        },
+        {
+            "section": "Folyóborok",
+            "title": "Balatonboglári Rosé száraz (dl)",
+            "description": "",
+            "price": "470"
+        },
+        {
+            "section": "Folyóborok",
+            "title": "Balatonboglári Merlot félédes (dl)",
+            "description": "",
+            "price": "470"
+        },
+        {
+            "section": "Folyóborok",
+            "title": "Villányi Cuveé száraz (dl)",
+            "description": "",
+            "price": "470"
+        },
+        {
+            "section": "Folyóborok",
+            "title": "Szóda (dl)",
+            "description": "",
+            "price": "100"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Moet Imperial Brut 0,75 l",
+            "description": "",
+            "price": "20 900"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Kreinbacher Classic Brut 0,75 l",
+            "description": "",
+            "price": "10 900"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Kreinbacher Rose Brut 0,75 l",
+            "description": "",
+            "price": "10 900"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Asti Martini Spumante 0,2 l",
+            "description": "",
+            "price": "2 900"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Hungaria Extra Dry 0,2 l",
+            "description": "",
+            "price": "1 750"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Prosecco 0,2 l/ü",
+            "description": "",
+            "price": "3 100"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Prosecco Bortolomiol Brut 0,75 l/ü",
+            "description": "",
+            "price": "8 900"
+        },
+        {
+            "section": "Pezsgők",
+            "title": "Prosecco 1dl",
+            "description": "",
+            "price": "1 550"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Jack Daniels Whisky (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Jack Daniels Whisky (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Jameson Whisky (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Jameson Whisky (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Jameson Black Whisky (2 cl)",
+            "description": "",
+            "price": "900"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Jameson Black Whisky (4 cl)",
+            "description": "",
+            "price": "1 800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Chivas Regal Whisky (2 cl)",
+            "description": "",
+            "price": "900"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Chivas Regal Whisky (4 cl)",
+            "description": "",
+            "price": "1 800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Olmeca Blanco Tequila (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Olmeca Blanco Tequila (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Hennessy VS Konyak (2 cl)",
+            "description": "",
+            "price": "900"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Hennessy VS Konyak (4 cl)",
+            "description": "",
+            "price": "1 800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Martell VSOP Konyak (2 cl)",
+            "description": "",
+            "price": "900"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Martell VSOP Konyak (4 cl)",
+            "description": "",
+            "price": "1 800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Bacardi Rum (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Bacardi Rum (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Havana Club 3 Years Rum (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Havana Club 3 Years Rum (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Diplomatico Reserva Rum (2 cl)",
+            "description": "",
+            "price": "900"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Diplomatico Reserva Rum (4 cl)",
+            "description": "",
+            "price": "1 800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Hendrick's Gin (2 cl)",
+            "description": "",
+            "price": "900"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Hendrick's Gin (4 cl)",
+            "description": "",
+            "price": "1 800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Malfy Originale Gin (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Malfy Originale Gin (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Malfy Rosa Gin (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Malfy Rosa Gin (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Malfy Arancia Grapefruit Gin (2 cl)",
+            "description": "",
+            "price": "800"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Malfy Arancia Grapefruit Gin (4 cl)",
+            "description": "",
+            "price": "1 600"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Monkey Gin (2 cl)",
+            "description": "",
+            "price": "900"
+        },
+        {
+            "section": "Röviditalok",
+            "title": "Monkey Gin (4 cl)",
+            "description": "",
+            "price": "1 800"
+        },
+        {
+            "section": "Ételek",
+            "title": "Croissant",
+            "description": "- levárral, nutellával (+200 Ft)",
+            "price": "1 800"
+        },
+        {
+            "section": "Ételek",
+            "title": "Bagel",
+            "description": "- lazacos, zöld vmilyen",
+            "price": "1 800"
+        },
+        {
+            "section": "Ételek",
+            "title": "Panini",
+            "description": "",
+            "price": "1 800"
         }
     ]
 }

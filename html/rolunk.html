@@ -1,239 +1,77 @@
 <!DOCTYPE html>
 <html lang="hu">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/rolunk.css">
-    <script src="../js/navbar.js"></script>
-    <title>Bécsi Cafe & Bar</title>
+    <script src="../js/navbar.js" defer></script>
+    <title>Bécsi Cafe & Bar - Rólunk</title>
     <link rel="icon" type="image/png" href="../source/img/becsi-logo_title.png">
 </head>
-
 <body>
-    <header id="header">
-        <!-- Nav-bar -->
-        <nav id="nav-bar">
-            <div id="nav-content">
-                <div id="nav-logo">
-                    <img src="../source/img/becsi_logo.png" alt="Bécsi logó" id="nav-logo-img">
+    <header class="hero-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="main.html" class="nav-logo"><img src="../source/img/becsi_logo.png" alt="Bécsi logó"></a>
+                <div id="nav-links" class="nav-links">
+                    <a href="main.html">Főoldal</a>
+                    <a href="itallap.html">Itallap</a>
+                    <a href="rolunk.html" class="active">Rólunk</a>
                 </div>
-                <div id="nav-links">
-                    <a href="main.html">
-                        <div>Főoldal</div>
-                    </a>
-                    <a href="itallap.html">
-                        <div>Itallap</div>
-                    </a>
-                    <a href="rolunk.html">
-                        <div id="active">Rólunk</div>
-                    </a>
-                </div>
-                <img src="../source/img/hamburger_icon.png" alt="hamburger_icon" id="hamburger">
+                <img src="../source/img/hamburger_icon.png" alt="Menü" id="hamburger">
             </div>
         </nav>
-
-        <!-- Header content -->
-        <div id="header-container">
-            <div id="header-content">
-                <img src="../source/img/becsi_logo.png" alt="Bécsi logó" id="header-logo-img">
-            </div>
+        <div class="hero-logo-box">
+            <img src="../source/img/becsi_logo.png" alt="Bécsi logó">
         </div>
-
     </header>
 
-    <section class="body-container">
-        <div class="body" id="rolunk-body">
-            <section id="map-container">
-                <div id="map-info" class="item">
-                    <h2>Látogasson el hozzánk!</h2>
-                    <p><b>Cím:</b> 9700 Szombathely Fő tér 14.</p>
-                    <p><b><br>Nyitvatartás:</b></p>
-                    <table id="open-hours-table">
-                        <tr>
-                            <th>
-                                <h2>Nap</h2>
-                            </th>
-                            <th>
-                                <h2>Idő</h2>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Hétfő</p>
-                            </td>
-                            <td>
-                                <p>07:30 - 20:30</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Kedd</p>
-                            </td>
-                            <td>
-                                <p>07:30 - 20:30</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Szerda</p>
-                            </td>
-                            <td>
-                                <p>07:30 - 20:30</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Csütörtök</p>
-                            </td>
-                            <td>
-                                <p>07:30 - 20:30</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Péntek</p>
-                            </td>
-                            <td>
-                                <p>07:30 - 22:00</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Szombat</p>
-                            </td>
-                            <td>
-                                <p>08:30 - 22:00</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Vasárnap</p>
-                            </td>
-                            <td>
-                                <p>09:00 - 18:00</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div id="map-box" class="item">
-                    <iframe
-                        src="https://maps.google.com/maps?q=Bécsi%20Cafe%20Bar%20Szombathely&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" id="map"></iframe>
-                </div>
-            </section>
-
-            <section class="card-holder">
-                <div id="contact-container" class="card">
-                    <table id="contact-table" class="table">
-                        <tr>
-                            <th>
-                                <h2>Elérhetőségeink</h2>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Telefonszám:</p>
-                            </td>
-                            <td>
-                                <p>+36 30 386 3221</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Email:</p>
-                            </td>
-                            <td>
-                                <p><a href="mailto:becsi@gmail.com"> cafe.becsi@gmail.com</a></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Instagram:</p>
-                            </td>
-                            <td>
-                                <p><a href="https://www.instagram.com/becsi_cafe_bar/">Katt ide!</a></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Facebook:</p>
-                            </td>
-                            <td>
-                                <p><a href="https://www.facebook.com/becsicafebar/?locale=hu_HU">Katt ide!</a></p>
-                            </td>
-                        </tr>
-                        <tr>
-                    </table>
-                </div>
-
-                <div id="aboutUs-container" class="card">
-                    <div>
-                        <h1>Rólunk:</h1>
-                        <p>A Bécsi Cafe & Bar 2018-ban nyitotta meg kapuit a régi, közkedvelt Bécsi Kávézó helyén.
-                            Megújult
-                            környezetben, mégis a hagyományokat tiszteletben tartva hoztunk létre egy olyan helyet, ahol
-                            a
-                            minőség, a hangulat és a vendégszeretet találkozik.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </section>
-
-    <footer>
-        <div id="footer-container">
-            <div id="footer-top">
-                <div id="text-box" class="footer-column">
-                    <p>
-                        Kínálatunkban megtalálhatóak a klasszikus kávék, frissítő limonádék és ízletes péksütemények.
-                        Hangulatos belső terünk és udvarias kiszolgálásunk garantálja, hogy nálunk mindig otthon
-                        érezheti magát.
-                    </p>
-                </div>
-                <div id="logo" class="footer-column">
-                    <img src="../source/img/becsi_logo.png" alt="Logo">
-                </div>
-                <div id="contact" class="footer-column">
-                    <p>9700 Szombathely, Fő tér. 14.</p>
-                    <p>+36 30 386 3221</p>
-                    <p><a href="mailto:vmi@vmi.com">cafe.becsi@gmail.com</a></p>
-                    <p><a href="#">Adatvédelmi tájékoztató</a></p>
-                    <p><a href="#">ÁSZF</a></p>
-                </div>
+    <main class="main-content">
+        <div class="info-grid">
+            <div class="info-box map-wrapper">
+                <iframe src="https://maps.google.com/maps?q=Bécsi%20Cafe%20Bar%20Szombathely&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
             </div>
 
-            <div id="footer-bottom">
-                <div id="copyright">
-                    <p>© Copyright 2025 | Minden jog fenntartva | BlaBlaBla Weboldalkészítő.com</p>
-                </div>
-                <div id="social">
-                    <a href="https://www.facebook.com/becsicafebar/?locale=hu_HU" target="_blank"
-                        class="footer-icon-container">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-facebook-icon lucide-facebook">
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                        </svg>
-                    </a>
-                    <a href="https://www.instagram.com/becsi_cafe_bar/" target="_blank" class="footer-icon-container">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-instagram-icon lucide-instagram">
-                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                        </svg>
-                    </a>
-                </div>
+            <div class="info-box">
+                <h2>Rólunk</h2>
+                <p style="margin-bottom: 30px;">A Bécsi Cafe & Bar 2018-ban nyitotta meg kapuit a régi, közkedvelt Bécsi Kávézó helyén. Megújult környezetben, mégis a hagyományokat tiszteletben tartva hoztunk létre egy olyan helyet, ahol a minőség, a hangulat és a vendégszeretet találkozik.</p>
+                
+                <h2>Látogasson el hozzánk!</h2>
+                <div class="data-row"><strong>Cím:</strong> <span>9700 Szombathely, Fő tér 14.</span></div>
+                <div class="data-row"><strong>Telefon:</strong> <span>+36 30 386 3221</span></div>
+                <div class="data-row"><strong>Email:</strong> <a href="mailto:cafe.becsi@gmail.com">cafe.becsi@gmail.com</a></div>
+                <div class="data-row"><strong>Facebook:</strong> <a href="https://www.facebook.com/becsicafebar" target="_blank">Katt ide!</a></div>
+                <div class="data-row"><strong>Instagram:</strong> <a href="https://www.instagram.com/becsi_cafe_bar/" target="_blank">Katt ide!</a></div>
+            </div>
+        </div>
+
+        <div class="info-box" style="width: 100%; max-width: 600px; margin: 0 auto;">
+            <h2>Nyitvatartás</h2>
+            <div class="data-row"><strong>Hétfő - Csütörtök</strong> <span>07:30 - 20:30</span></div>
+            <div class="data-row"><strong>Péntek</strong> <span>07:30 - 22:00</span></div>
+            <div class="data-row"><strong>Szombat</strong> <span>08:30 - 22:00</span></div>
+            <div class="data-row"><strong>Vasárnap</strong> <span>09:00 - 18:00</span></div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-text"><p>Kínálatunkban megtalálhatóak a klasszikus kávék, frissítő limonádék és ízletes péksütemények. Hangulatos belső terünk és udvarias kiszolgálásunk garantálja, hogy nálunk mindig otthon érezheti magát.</p></div>
+            <div class="footer-logo"><img src="../source/img/becsi_logo.png" alt="Logo"></div>
+            <address class="footer-contact" style="font-style: normal;">
+                <p>9700 Szombathely, Fő tér 14.</p>
+                <p>+36 30 386 3221</p>
+                <p><a href="mailto:cafe.becsi@gmail.com">cafe.becsi@gmail.com</a></p>
+                <p><a href="#">Adatvédelmi tájékoztató</a> | <a href="#">ÁSZF</a></p>
+            </address>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 | Minden jog fenntartva | BlaBlaBla Weboldalkészítő.com</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/becsicafebar" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg></a>
+                <a href="https://www.instagram.com/becsi_cafe_bar/" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg></a>
             </div>
         </div>
     </footer>
 </body>
-
 </html>
